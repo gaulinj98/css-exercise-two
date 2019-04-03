@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 nav {
@@ -28,6 +29,10 @@ nav {
   width: 50%;
 }
 
+.left img {
+  font-size: 52px;
+}
+
 .right {
   float: right;
 }
@@ -42,6 +47,23 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link { color:#191955; } /* unvisited */
+a:visited { color:#7f7fff; } /* visited */
+a:hover { color:#0080ff; } /* mouse over */
+a:active { color:#004c4cff; } /* selected */
+
+h1 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +71,8 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.story-text {
+  line-height: 1.5;
 }
