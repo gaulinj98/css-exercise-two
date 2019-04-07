@@ -20,6 +20,12 @@ nav {
   width: 100%;
 }
 
+figcaption {
+  margin-bottom: 32px;
+  font-size: 14px;
+  width: 72%;
+}
+
 .medium-pic {
   width: 70%;
 }
@@ -47,21 +53,29 @@ li {
   padding: 30px;
 }
 
-a {
+.right li a {
   text-decoration: none;
+  color: #ffffff;
 }
 
-a:link { color:#191955; } /* unvisited */
-a:visited { color:#7f7fff; } /* visited */
-a:hover { color:#0080ff; } /* mouse over */
-a:active { color:#004c4cff; } /* selected */
+.right li a:hover { color:#0080ff}
+.right li a:active { color: #0d128c}
+
 
 h1 {
   font-size: 32px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-top: 10px;
+margin-bottom: 20px;
+font-size: 90%;
 }
 
 article {
